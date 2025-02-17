@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-image: url(/Images/homeback.jpg);
+    background-size: cover;
+}
+
+.header{
+    background: linear-gradient(to right, #5BC0BE, #8C7AA9);
+    display: flex;
+    padding: 0 2vw;
+    height: 10vh;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 0 0 1vw 1vw;
+}
+
+.pfp{
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+}
+
+.nameFace{
+    display: flex; 
+    align-items: center;
+    gap: 1vw;
+}
+
+#nickname,#fullname{
+    margin: 0 1vw;
+}
+
+.topnav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.topnav a{
+    color: #363636;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    color: #F8E5EE;
+    text-decoration: underline;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right,#8C7AA9, #5BC0BE);
+    height: 5vh;
+    border-radius: 1vw 1vw 0 0;
+    width: 100%;
+}
+
+.hiGrid{
+    display: grid;
+    grid-template-columns: 10vw 60vw 10vw;
+    grid-template-rows: 20vh;
+    align-items: center;
+    height: 20vh;
+    margin: 5vh 10vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiImage{
+    height: 90%;
+    width: auto;
+    border-radius: 100%;
+
+}
+
+.hiText{
+    background-image: linear-gradient(#5bc0bea9, #8C7AA9);
+    border-radius: 15vh;
+    padding: 2vw;
+}
+
+.skillGrid{
+    display: grid;
+    grid-template-columns: 8vw 8vw 8vw 8vw 8vw;
+    gap: 1vh 2.5vw;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skillGrid div{
+    border-style: solid;
+}
+
+.skills{
+    text-align: center;
+    background-image: linear-gradient(#8C7AA9,#5bc0bea9);
+    margin: 5vh 20vw;
+    border-radius: 10vh;
+    padding: 0vh 2vw 2vh;
+}
+
