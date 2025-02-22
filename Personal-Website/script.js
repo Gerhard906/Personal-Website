@@ -10,5 +10,17 @@ document,addEventListener("DOMContentLoaded", () => {
         }
     }
     typeText();
-})
+
+    var titles = ["Software Developer", "Web Developer", "Programmer", "Designer", "Problem Solver"]
+    let counter = 0
+    function cycleTitles(){    
+        document.getElementById("cycleTitle").textContent = titles[counter];
+        counter++
+        if (counter >= titles.length){
+            counter = 0
+        }
+            setTimeout(cycleTitles, 5000);       
+        }
+        cycleTitles();
+    })
 

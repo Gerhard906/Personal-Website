@@ -103,3 +103,20 @@ body{
     padding: 0vh 2vw 2vh;
 }
 
+#cycleTitle{
+    color: #F8E5EE;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#8C7AA9,#5bc0bea9);
+    margin: 2vh 20vw;
+    padding: 5vh;
+    border-radius: 10vh;
+}
+
+.pdf{
+    width: 50vw;
+    height: 70vh;
+}
