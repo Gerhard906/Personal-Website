@@ -120,3 +120,11 @@ body{
     width: 50vw;
     height: 70vh;
 }
+
+.age{
+    text-align: center;
+    background-image: linear-gradient(#5bc0bea9, #8C7AA9);
+    margin: 5vh 20vw;
+    border-radius: 15vh;
+    padding: 1vw;
+}
